@@ -18,12 +18,12 @@ On line 32
 char firstLetter = 'A'; // single quotes are required for characters
 ```
 ```cs
-int nssAge = 5;
+int nssAge = 6;
 ```
 ```cs
 bool isCool = true;
 ```
-Everything "inherits" from `object`. You'll learn more about inheritance later, but it's not all that dissimilar to genetic inheritance in people.
+Everything "inherits" from `object`. You'll learn more about inheritance later, but it's not all that dissimilar to the `extends` keyword that you've been using with React.
 ```cs
 object myCustomThing1 = ""; // a string
 object myCustomThing2 = ''; // a char
@@ -46,7 +46,7 @@ string firstNameAndMiddleInitial = firstName + " " + "N";
 One of the easiest ways to inject variables in a string is to use string interpolation.
 ```cs
 string fullName = $"{firstNameAndMiddleInitial} Cross";
-int age = 34;
+int age = 35;
 var intro = $"My name is {fullName} and I'm {age} years old";
 ```
 BTW, you can use `var` instead of the type and the compiler will infer the type for you.
@@ -105,4 +105,4 @@ Let's go through [this exercise](https://github.com/nss-evening-cohort-7/bangazo
 
 [.NET Core & .NET Framework are different](https://docs.microsoft.com/en-us/dotnet/standard/choosing-core-framework-server). _.NET Framework_ requires a Windows (virtual) environment. _.NET Core_ is newer, different, and can run on multiple operating systems, but several features overlap between the two frameworks.
 
-[NuGet](https://www.nuget.org/) (newget, not nugget) is a package manager for .NET, similar to how you you've used npm in the frontend class.
+[NuGet](https://www.nuget.org/) (newget, not nugget) is a package manager for .NET, similar to how you you've used `npm` in the frontend class.

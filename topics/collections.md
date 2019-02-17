@@ -1,6 +1,6 @@
 # Collections
 
-In Javascript you have arrays and objects. In C# you have [Collections](https://github.com/nss-evening-cohort-7/bangazon-inc/blob/master/orientation/06_COLLECTIONS.md). You'll be learning about only a couple of the most common ones.
+In Javascript you have arrays and objects. These are the tools you've been using so far to store data. In C# you have [Collections](https://github.com/nss-evening-cohort-7/bangazon-inc/blob/master/orientation/06_COLLECTIONS.md). You'll be learning about only a couple of the most common ones.
 
 > .NET has [lots](https://github.com/nss-evening-cohort-7/bangazon-inc/blob/formatting/concepts/csharp-language/collections.md) and [lots](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic?view=netframework-4.7.1) of types of [collections](https://github.com/nss-evening-cohort-7/bangazon-inc/blob/master/orientation/02_FIRST_EXECUTABLE.md#c-collections). List and Dictionary are the most common ones.
 
