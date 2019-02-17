@@ -7,10 +7,10 @@ You'll represent the relationships between your different entities with [Crows f
 - Join tables
 
 - [What is an ERD?](https://wcs.smartdraw.com/entity-relationship-diagram/)
-- [Database Design](https://github.com/nss-evening-cohort-06/bangazon-inc/blob/master/orientation/14_DATA_RELATIONSHIPS.md)
+- [Database Design](https://github.com/nss-evening-cohort-8/bangazon-inc/blob/master/orientation/14_DATA_RELATIONSHIPS.md)
 
 ###### Exercise
-Create a [Bangazon ERD](https://github.com/nss-evening-cohort-06/bangazon-inc/blob/master/orientation/exercises/18_SQL_BANGAZON.md)
+Create a [Bangazon ERD](https://github.com/nss-evening-cohort-8/bangazon-inc/blob/master/orientation/exercises/18_SQL_BANGAZON.md)
 
 
 ### SQL Syntax
@@ -22,9 +22,9 @@ Create a [Bangazon ERD](https://github.com/nss-evening-cohort-06/bangazon-inc/bl
 	[SQL Control Flow](https://docs.microsoft.com/en-us/sql/t-sql/language-elements/control-of-flow)
 
 - [SQL]
-	- [Music History](https://github.com/nss-evening-cohort-06/bangazon-inc/blob/master/orientation/exercises/16_MUSIC_HISTORY.md) // written for SQLite
-	- [Chinook](https://github.com/nss-evening-cohort-06/bangazon-inc/blob/master/orientation/exercises/19_SQL_CHINOOK.md)
+	- [Music History](https://github.com/nss-evening-cohort-8/bangazon-inc/blob/master/orientation/exercises/16_MUSIC_HISTORY.md) // written for SQLite
+	- [Chinook](https://github.com/nss-evening-cohort-8/bangazon-inc/blob/master/orientation/exercises/19_SQL_CHINOOK.md)
 
 ###### Additional Reading
-- [Intro to Relational Databases](https://github.com/nss-evening-cohort-06/bangazon-inc/blob/formatting/concepts/databases/relational-databases.md)
-- [Relational Database Principles](https://github.com/nss-evening-cohort-06/bangazon-inc/blob/formatting/concepts/databases/relational-databases-management.md)
+- [Intro to Relational Databases](https://github.com/nss-evening-cohort-8/bangazon-inc/blob/formatting/concepts/databases/relational-databases.md)
+- [Relational Database Principles](https://github.com/nss-evening-cohort-8/bangazon-inc/blob/formatting/concepts/databases/relational-databases-management.md)

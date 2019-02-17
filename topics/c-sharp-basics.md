@@ -90,10 +90,10 @@ char? letterGrade = null;
 ##### Exercises
 
 - [C# Tutorial on Repl.it](https://repl.it/community/classrooms/20702)
-- [LetterLoops](https://github.com/nss-evening-cohort-7/bangazon-inc/blob/master/orientation/exercises/LetterLoops.md) :abc: :arrows_clockwise:
-- [Number Multiplier](https://github.com/nss-evening-cohort-7/bangazon-inc/blob/master/orientation/exercises/NumberMultiplier.md)
+- [LetterLoops](https://github.com/nss-evening-cohort-8/bangazon-inc/blob/master/orientation/exercises/LetterLoops.md) :abc: :arrows_clockwise:
+- [Number Multiplier](https://github.com/nss-evening-cohort-8/bangazon-inc/blob/master/orientation/exercises/NumberMultiplier.md)
 
-Let's go through [this exercise](https://github.com/nss-evening-cohort-7/bangazon-inc/blob/master/orientation/02_FIRST_EXECUTABLE.md) to get an idea of some of the primary differences between C# and JavaScript, and learn a few extra commands that make our [command line interactive](https://github.com/nss-evening-cohort-7/bangazon-inc/blob/master/orientation/13_CLI_IO.md).
+Let's go through [this exercise](https://github.com/nss-evening-cohort-8/bangazon-inc/blob/master/orientation/02_FIRST_EXECUTABLE.md) to get an idea of some of the primary differences between C# and JavaScript, and learn a few extra commands that make our [command line interactive](https://github.com/nss-evening-cohort-8/bangazon-inc/blob/master/orientation/13_CLI_IO.md).
 
 > You can also optionally begin [Koans](https://github.com/NotMyself/DotNetCoreKoans) which are test driven way to understand the language syntax and available data structures. It's best to take your time and make sure you understand each section before progressing. Just making the test pass doesn't mean you learned the lesson. If you reach a section that we haven't covered, feel free to do some preliminary research until class covers that concept.
 

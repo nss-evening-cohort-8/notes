@@ -1,4 +1,4 @@
 - SQL
 	- has many variants (ANSI, T-SQL, etc)
 	- [Select Star SQL](https://selectstarsql.com/)
-	- [Chinook](https://github.com/nss-evening-cohort-7/bangazon-inc/blob/master/orientation/exercises/19_SQL_CHINOOK.md)
+	- [Chinook](https://github.com/nss-evening-cohort-8/bangazon-inc/blob/master/orientation/exercises/19_SQL_CHINOOK.md)
