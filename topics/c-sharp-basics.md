@@ -17,7 +17,7 @@ On line 32
 
 You can get a single character from a string by accessing the index position of the character.
 ```cs
-char firstLetterOfPoem = poem[0]; // R
+char firstLetterOfPoem = poem[1]; // R
 ```
 
 ```cs
