@@ -50,15 +50,17 @@ favoriteNumbers[3] = 13;
 ### String Concatenation
 There are [several ways to combine strings](https://docs.microsoft.com/en-us/dotnet/csharp/how-to/concatenate-multiple-strings) in C#.
 ```cs
-string firstName = "Martin";
-string firstNameAndMiddleInitial = firstName + " " + "N";
-Console.WriteLine(firstNameAndMiddleInitial) // Martin N
+string firstName = "Inigo";
+string firstNameAndSpace = firstName + " ";
+Console.WriteLine(firstNameAndSpace) // Inigo <-- has a trailing space character
 ```
 One of the easiest ways to inject variables in a string is to use string interpolation.
 ```cs
-string fullName = $"{firstNameAndMiddleInitial} Cross";
-int age = 35;
-var intro = $"My name is {fullName} and I'm {age} years old";
+string fullName = $"{firstNameAndSpace} Montoya";
+string relative = "father";
+int too = 2;
+var intro = $"Hello. My name is {fullName}. You killed my {relative}. Prepare {too} die.";
+// Hello. My name is Inigo  Montoya. You killed my father. Prepare 2 die.
 /*
 BTW, you can use `var` instead of the type
  and the compiler will infer the type for you.
@@ -68,11 +70,11 @@ BTW, you can use `var` instead of the type
 There's also a utility in .NET called StringBuilder to... well... build strings.
 ```cs
 var sb = new StringBuilder();
-sb.Append("that's ")
-    .Append("what ")
-    .Append("she ")
-    .Append("said.");
-sb.ToString(); // that's what she said
+sb.AppendLine("Hello. ")
+    .Append("My name is ")
+    .Append(fullName)
+    .Append(".");
+sb.ToString(); // Hello. My name is Inigo  Montoya.
 ```
 Also, notice that `new` keyword? That creates an instance of the StringBuilder class for you to use. We'll cover more on classes soon.
 
