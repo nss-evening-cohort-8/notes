@@ -14,9 +14,9 @@
 1. **Apr 29th-4th** ([ORMs](https://github.com/nss-evening-cohort-8/notes/blob/master/topics/orm.md))
 1. **May 6th-11th** ([Scrum](https://www.notion.so/Fairy-Tale-Comic-Book-7407b192e77f4ada9bb761be0bec9dff))
 1. **May 13th-18th** // BREAK
-1. **May 20th-25th** (Bangazon)
-	- [Teamwork Orientation](https://github.com/nashville-software-school/teamwork-orientation)
-	- [Bangazon Terminal Interface](https://github.com/nss-evening-cohort-8/bangazon-inc/blob/master/projects/BANGAZON_TERMINAL_INTERFACE.md)
+1. **May 20th-25th** (Bangazon) // [Employee Handbook](https://github.com/nss-evening-cohort-8/bangazon-inc/blob/master/EMPLOYEE_HANDBOOK.md)
+	- [Bangazon Platform API](https://github.com/nss-evening-cohort-8/bangazon-inc/blob/master/projects/BANGAZON_PLATFORM_API.md)
+	- React frontend // [requirements](https://github.com/nss-evening-cohort-8/bangazon-inc/blob/master/projects/WORKFORCE_MANAGEMENT.md)
 1. **May 28th-1st** // Sprint 1
 1. **June 3rd-8th** // Sprint 1
 1. **June 10th-15th** // Sprint 2

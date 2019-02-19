@@ -17,7 +17,7 @@ If you're not using the debugger already then [**_START NOW_**](https://docs.mic
 - Code completion
 - Hover text/tooltips as documentation
 - Red/Green squiggly underline is referring to the Error List.
-- Light bulb - (<kbd>Ctrl</kbd>+<kbd>.</kbd>)
+- :bulb: - (<kbd>Ctrl</kbd>+<kbd>.</kbd>)
 
 ### Refactor Rename (<kbd>Ctrl</kbd>+<kbd>R,R</kbd>)
 - Preview Changes :point_up: , (<kbd>Alt</kbd>+<kbd>P</kbd>)
