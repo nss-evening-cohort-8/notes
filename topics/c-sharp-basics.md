@@ -5,7 +5,7 @@ In C#, you define the [types of your variables](https://docs.microsoft.com/en-us
 ```cs
 string yourInstructor = "Nathan"; // double quotes are required for strings
 ```
-If you would like your string to include things like new lines, then you can use a verbatim string literal.
+If you would like your string to include non-visible characters like new lines, then you can use a verbatim string literal with an `@` sign before the quotes.
 ```cs
 string poem = @"
 Roses are red
@@ -14,8 +14,14 @@ Violets are blue
 On line 32
 ";
 ```
+
+You can get a single character from a string by accessing the index position of the character.
 ```cs
-char firstLetter = 'A'; // single quotes are required for characters
+char firstLetterOfPoem = poem[0]; // R
+```
+
+```cs
+char lastLetter = 'Z'; // single quotes are required for characters
 ```
 ```cs
 int nssAge = 6;
@@ -23,18 +29,22 @@ int nssAge = 6;
 ```cs
 bool isCool = true;
 ```
-Everything "inherits" from `object`. You'll learn more about inheritance later, but it's not all that dissimilar to the `extends` keyword that you've been using with React.
+
+Everything "inherits" from `object`. You'll learn more about inheritance later, but it's usage is not all that dissimilar to the `extends` keyword that you've been using with React. Below is an example of [boxing](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/types/boxing-and-unboxing) data into it's inherited type. :boxing_glove:
 ```cs
-object myCustomThing1 = ""; // a string
-object myCustomThing2 = ''; // a char
-object myCustomThing3 = 0; // an int
-object myCustomThing4 = true; // a bool
+// Avoid this behavior
+object myCustomThing1 = ""; // a boxed string
+object myCustomThing2 = ''; // a boxed char
+object myCustomThing3 = 0; // a boxed int
+object myCustomThing4 = true; // a boxed bool
 ```
-Arrays are available in C#, but the syntax is slightly different.
+Arrays are available in C#, but the syntax is slightly different. There are also more convenient replacements for an array. More on that later.
 ```cs
 string[] instructors = { "Nathan", "Martin", "Ben" };
-int[] favoriteNumbers = new int[3]; // initialized to a length of 3
-favoriteNumbers = { 42, 52, 111 };
+int[] favoriteNumbers = new int[3] { 42, 52, 111 };
+// initialized to length of 3  ^^^
+// What happens if you try to add a 4th entry to favoriteNumbers?
+favoriteNumbers[3] = 13;
 ```
 
 ### String Concatenation
@@ -42,14 +52,29 @@ There are [several ways to combine strings](https://docs.microsoft.com/en-us/dot
 ```cs
 string firstName = "Martin";
 string firstNameAndMiddleInitial = firstName + " " + "N";
+Console.WriteLine(firstNameAndMiddleInitial) // Martin N
 ```
 One of the easiest ways to inject variables in a string is to use string interpolation.
 ```cs
 string fullName = $"{firstNameAndMiddleInitial} Cross";
 int age = 35;
 var intro = $"My name is {fullName} and I'm {age} years old";
+/*
+BTW, you can use `var` instead of the type
+ and the compiler will infer the type for you.
+*/
 ```
-BTW, you can use `var` instead of the type and the compiler will infer the type for you.
+
+There's also a utility in .NET called StringBuilder to... well... build strings.
+```cs
+var sb = new StringBuilder();
+sb.Append("that's ")
+    .Append("what ")
+    .Append("she ")
+    .Append("said.");
+sb.ToString(); // that's what she said
+```
+Also, notice that `new` keyword? That creates an instance of the StringBuilder class for you to use. We'll cover more on classes soon.
 
 ### Default Values & Nullability
 C# value types have a variety of [default values](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/default-values-table), particularly if they are prohibited from being set to null.
@@ -71,7 +96,7 @@ char? letterGrade = null;
 - [C# operators](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/)
 
 	- C# does not have type coercion :raised_hands: so the only way to check for equality is `==`.
-	- `is` v. `as` for type conversion (without inheritance)
+	- There are also a variety of type checking/casting keywords such as [`is` v. `as`](https://stackoverflow.com/a/3786390), [`is` with type pattern matching in C# 7](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/is#-type-pattern-), or just brute force [casting](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/types/casting-and-type-conversions#explicit-conversions).
 
 ### Control Flow in C#
 - Branching
@@ -82,7 +107,6 @@ char? letterGrade = null;
 	- [`continue`](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/continue) v. [`break`](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/break)
 	- `return` v. `throw`
 - [`try` and `catch` Exceptions](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/exceptions/index)
-	- `TryParse()` with `out` variable declaration v. `as` operator
 - [`async` and `await`](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/control-flow-in-async-programs)
 
 ***

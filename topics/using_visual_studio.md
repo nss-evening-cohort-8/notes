@@ -4,7 +4,7 @@
 - [Code Navigation Tools](https://docs.microsoft.com/en-us/visualstudio/ide/navigating-code)
 
 ### [Debugger](https://docs.microsoft.com/en-us/visualstudio/debugger/debugger-feature-tour)
-If you're not using the debugger already then **_START NOW_**. It is the single greatest tool a programmer can use. When you want to `console.log(something)`, now you will use a debugger instead. Even [in JavaScript](https://stackoverflow.com/a/66431). **Seriously, I never want to see another `console.log()` again.**
+If you're not using the debugger already then [**_START NOW_**](https://docs.microsoft.com/en-us/visualstudio/debugger/index?view=vs-2019s). It is the single greatest tool a programmer can use. When you want to `console.log(something)`, now you will use a debugger instead. Even [in JavaScript](https://stackoverflow.com/a/66431). **Seriously, I never want to see another `console.log()` again.**
 - Yellow arrow is the point of execution. The highlighted line has not been executed yet.
 - Call Stack shows current code path at point of execution.
 - Locals, Immediate Window, & Watch.
