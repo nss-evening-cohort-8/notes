@@ -1,5 +1,6 @@
 # Weekly Notes
 
+[Using Visual Studio](https://github.com/nss-evening-cohort-8/notes/blob/master/topics/using_visual_studio.md)
 1. **Feb Mon. 18th - Sat. 23rd** ([Installs](https://www.notion.so/Device-Setup-8d30d444839346a38a8c47b61b3db028), [C# Basics](https://github.com/nss-evening-cohort-8/notes/blob/master/topics/c-sharp-basics.md))
 1. **Feb 25th-2nd** ([Classes, Methods, & Namespaces](https://github.com/nss-evening-cohort-8/notes/blob/master/topics/oop-basics.md))
 1. **Mar 4th-9th** ([Inheritance & Composition](https://github.com/nss-evening-cohort-8/notes/blob/master/topics/inheritance.md))
