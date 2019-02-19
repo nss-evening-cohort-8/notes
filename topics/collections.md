@@ -4,6 +4,7 @@ In Javascript you have arrays and objects. These are the tools you've been using
 
 > .NET has [lots](https://github.com/nss-evening-cohort-8/bangazon-inc/blob/formatting/concepts/csharp-language/collections.md) and [lots](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic?view=netframework-4.7.1) of types of [collections](https://github.com/nss-evening-cohort-8/bangazon-inc/blob/master/orientation/02_FIRST_EXECUTABLE.md#c-collections). List and Dictionary are the most common ones.
 
+> :part_alternation_mark: Is there room in your brain for [Generics](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/generics/)?
 
 ##### Exercises
 
