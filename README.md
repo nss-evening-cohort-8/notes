@@ -1,22 +1,27 @@
-# Weekly Notes
+# E8 Schedule
 
-[Using Visual Studio](https://github.com/nss-evening-cohort-8/notes/blob/master/topics/using_visual_studio.md)
-1. **Feb Mon. 18th - Sat. 23rd** ([Installs](https://www.notion.so/Device-Setup-8d30d444839346a38a8c47b61b3db028), [C# Basics](https://github.com/nss-evening-cohort-8/notes/blob/master/topics/c-sharp-basics.md))
-1. **Feb 25th-2nd** ([Classes, Methods, & Namespaces](https://github.com/nss-evening-cohort-8/notes/blob/master/topics/oop-basics.md))
-1. **Mar 4th-9th** ([Inheritance & Composition](https://github.com/nss-evening-cohort-8/notes/blob/master/topics/inheritance.md))
-1. **Mar 11th-16th** ([Collections](https://github.com/nss-evening-cohort-8/notes/blob/master/topics/collections.md), [Interfaces](https://github.com/nss-evening-cohort-8/notes/blob/master/topics/interfaces.md))
-1. **Mar 18th-23rd** ([Candy Exchange](https://github.com/nss-evening-cohort-8/candy-market))
-1. **Mar 25th-30th** ([APIs](https://github.com/nss-evening-cohort-8/notes/blob/master/topics/webapi.md), [LINQ](https://github.com/nss-evening-cohort-8/notes/blob/master/topics/linq.md))
-1. **Apr 1st-6th** ([TDD](https://github.com/nss-evening-cohort-8/notes/blob/master/topics/tdd.md))
-1. **Apr 8th-13th** ([WebAPI Group Project](https://www.notion.so/ClinkedIn-cb5f5f9fade1480b9ff6cc024bd0f929))
-1. **Apr 15th-20th** ([ERDs, Databases](https://github.com/nss-evening-cohort-8/notes/blob/master/topics/erd.md))
-1. **Apr 22nd-27th** ([SQL](ttps://github.com/nss-evening-cohort-8/notes/blob/master/topics/sql.md))
-1. **Apr 29th-4th** ([ORMs](https://github.com/nss-evening-cohort-8/notes/blob/master/topics/orm.md))
-1. **May 6th-11th** ([Scrum](https://www.notion.so/Fairy-Tale-Comic-Book-7407b192e77f4ada9bb761be0bec9dff))
+1. **Feb Mon. 18th - Sat. 23rd** // [C# Basics](https://github.com/nss-evening-cohort-8/notes/blob/master/topics/c-sharp-basics.md)
+
+    - [Device Setup](https://www.notion.so/8d30d444839346a38a8c47b61b3db028)
+
+    - [Using Visual Studio](https://github.com/nss-evening-cohort-8/notes/blob/master/topics/using_visual_studio.md)
+1. **Feb 25th-2nd** // [Classes, Methods, & Namespaces](https://github.com/nss-evening-cohort-8/notes/blob/master/topics/oop-basics.md)
+1. **Mar 4th-9th** // [Inheritance & Composition](https://github.com/nss-evening-cohort-8/notes/blob/master/topics/inheritance.md)
+1. **Mar 11th-16th** // [Collections](https://github.com/nss-evening-cohort-8/notes/blob/master/topics/collections.md), [Interfaces](https://github.com/nss-evening-cohort-8/notes/blob/master/topics/interfaces.md)
+1. **Mar 18th-23rd** // [Candy Exchange](https://github.com/nss-evening-cohort-8/candy-market)
+1. **Mar 25th-30th** // [APIs](https://github.com/nss-evening-cohort-8/notes/blob/master/topics/webapi.md), [LINQ](https://github.com/nss-evening-cohort-8/notes/blob/master/topics/linq.md)
+1. **Apr 1st-6th** // [TDD](https://github.com/nss-evening-cohort-8/notes/blob/master/topics/tdd.md)
+1. **Apr 8th-13th** // [WebAPI Group Project](https://www.notion.so/ClinkedIn-cb5f5f9fade1480b9ff6cc024bd0f929)
+1. **Apr 15th-20th** // [ERDs, Databases](https://github.com/nss-evening-cohort-8/notes/blob/master/topics/erd.md)
+1. **Apr 22nd-27th** // [SQL](ttps://github.com/nss-evening-cohort-8/notes/blob/master/topics/sql.md)
+1. **Apr 29th-4th** // [ORMs](https://github.com/nss-evening-cohort-8/notes/blob/master/topics/orm.md)
+1. **May 6th-11th //** [Scrum](https://www.notion.so/Fairy-Tale-Comic-Book-7407b192e77f4ada9bb761be0bec9dff)
 1. **May 13th-18th** // BREAK
-1. **May 20th-25th** (Bangazon) // [Employee Handbook](https://github.com/nss-evening-cohort-8/bangazon-inc/blob/master/EMPLOYEE_HANDBOOK.md)
-	- [Bangazon Platform API](https://github.com/nss-evening-cohort-8/bangazon-inc/blob/master/projects/BANGAZON_PLATFORM_API.md)
-	- React frontend // [requirements](https://github.com/nss-evening-cohort-8/bangazon-inc/blob/master/projects/WORKFORCE_MANAGEMENT.md)
+1. **May 20th-25th** // Bangazon
+    - [Employee Handbook](https://github.com/nss-evening-cohort-8/bangazon-inc/blob/master/EMPLOYEE_HANDBOOK.md)
+    - [Bangazon Platform API](https://github.com/nss-evening-cohort-8/bangazon-inc/blob/master/projects/BANGAZON_PLATFORM_API.md)
+    - React frontend (Storefront)
+    - React frontend (Workforce Management) // [requirements](https://github.com/nss-evening-cohort-8/bangazon-inc/blob/master/projects/WORKFORCE_MANAGEMENT.md)?
 1. **May 28th-1st** // Sprint 1
 1. **June 3rd-8th** // Sprint 1
 1. **June 10th-15th** // Sprint 2
