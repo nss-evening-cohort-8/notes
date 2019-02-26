@@ -21,9 +21,9 @@ Create a [Bangazon ERD](https://github.com/nss-evening-cohort-8/bangazon-inc/blo
 
 	[SQL Control Flow](https://docs.microsoft.com/en-us/sql/t-sql/language-elements/control-of-flow)
 
-- [SQL]
+- SQL
 	- [Music History](https://github.com/nss-evening-cohort-8/bangazon-inc/blob/master/orientation/exercises/16_MUSIC_HISTORY.md) // written for SQLite
-	- [Chinook](https://github.com/nss-evening-cohort-8/bangazon-inc/blob/master/orientation/exercises/19_SQL_CHINOOK.md)
+	- [Chinook](https://github.com/nss-evening-cohort-8/bangazon-inc/blob/master/orientation/exercises/19_SQL_CHINOOK.md) // written for Microsoft SQL Server
 
 ###### Additional Reading
 - [Intro to Relational Databases](https://github.com/nss-evening-cohort-8/bangazon-inc/blob/formatting/concepts/databases/relational-databases.md)
