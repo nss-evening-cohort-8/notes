@@ -2,8 +2,10 @@
 ### Code Navigation
 - [Code Navigation Tools](https://docs.microsoft.com/en-us/visualstudio/ide/navigating-code)
 
-## [Take a brief tutorial of Visual Studio 2017](https://tutorials.visualstudio.com/vs-get-started/intro)  
+### [Take a brief tutorial of Visual Studio 2017](https://tutorials.visualstudio.com/vs-get-started/intro)  
 It can feel [really cramped](https://twitter.com/dylanbeattie/status/832326857798348800) to code in Visual Studio if you don't know how to use it. Make sure that you "un-pin" any additional windows in Visual Studio that you find you're not using.
+
+Explain docking windows.
 
 ### Some important windows that you will find in Visual Studio
 - **_Solution Explorer_** allows you to browse the components of your application. Just like the file explorer in Visual Studio Code, this includes the files and folders that make up your application, but the Solution Explorer also includes your NuGet and npm dependencies, gives you access to graphical tools for editing your project files, and gives you the ability to drill into `*.cs` files, revealing the classes, methods and properties contained within them.
